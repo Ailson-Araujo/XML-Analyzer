@@ -102,39 +102,23 @@ header{
     }
 }
 
-/* .conteiner{
+.conteiner{
     display: flex;
     position: relative;
-    flex-direction: column;
-    margin: 4em;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 6em;
     align-items: center;
-} */
-
-.item{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 4em;
 }
 
 .funcao{
-    width: 35rem;
-    height: 25rem;
+    width: 20em;
+    height: 5em;
+    margin: 2em;
+    margin-bottom: 10em;
+    text-align: center;
 }
 
-.funcao img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 3rem;
-}
-
-.descricao{
-    width: 100%;
-    height: 100%;
-    margin-bottom: 3rem;
-}
-
-.descricao h1{
-    padding-top: 30%;
+.funcao h1{
+    margin-bottom: 1em;
 }
