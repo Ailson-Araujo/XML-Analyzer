@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="license.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
     <title>XML Analyzer</title>
@@ -17,7 +18,7 @@
             </div>
             <div class="banner">
                 <img src="imagens/nome.png" alt="">
-                <p>Solução inteligente para processamento e análise.</p>
+                <p>Solução eficaz para gerenciamento, processamento e análise.</p>
                 <form method="GET" action="https://mega.nz/file/jk5kCQRb#FRo0cZBYJORG3Ab3bWFjPcfytPSW213HKcyCm-uSMxQ" target="_blank">
                     <button>Download</button>
                 </form>
@@ -27,33 +28,70 @@
     <section class="conteiner">
         <div class="funcao">
             <h1>Visualização de dados</h1>
-            <p>Exibe os dados de maior interesse do arquivo processado juntame com a media das estações que participaram do DF.</p>
-        </div>
-                
-        <div class="funcao">
-            <h1>Plotagem</h1>
-            <p>Exibe em mapa as posições de interesse, com ou sem a porcentagem de confiabilidade, Calculo de distância entre posições e Personalização do mapa</p>
+            <p>Exibe os dados de maior interesse do arquivo processado juntamente com a media das estações que participaram do DF. <a href="">Saiba Mais</a></p>
+            
         </div>
 
         <div class="funcao">
-            <h1>Visualização de dados</h1>
-            <p>Exibe os dados de maior interesse do arquivo processado juntame com a media das estações que participaram do DF.</p>
-        </div>
-                
-        <div class="funcao">
             <h1>Plotagem</h1>
-            <p>Exibe em mapa as posições de interesse, com ou sem a porcentagem de confiabilidade, Calculo de distância entre posições e Personalização do mapa</p>
+            <p>Exibe em mapa as posições de interesse, com ou sem a porcentagem de confiabilidade. Calculo de distância entre posições e Personalização das camadas do mapa. <a href="">Saiba Mais</a></p>
         </div>
 
         <div class="funcao">
-            <h1>Visualização de dados</h1>
-            <p>Exibe os dados de maior interesse do arquivo processado juntame com a media das estações que participaram do DF.</p>
+            <h1>Mensagem</h1>
+            <p>Realize a construção da mensagem de maneira semiautomática com avaliação quantitativa dos fixos. <a href="">Saiba Mais</a></p>
         </div>
-                
+
         <div class="funcao">
-            <h1>Plotagem</h1>
-            <p>Exibe em mapa as posições de interesse, com ou sem a porcentagem de confiabilidade, Calculo de distância entre posições e Personalização do mapa</p>
+            <h1>Base de Dados</h1>
+            <p>Salve as principais informações e arquivos em uma unica base de dados. <a href="">Saiba Mais</a></p>
         </div>
+
+        <div class="funcao">
+            <h1>Gerenciamento</h1>
+            <p>Gerencie os dados realizando filtragens simples ou complexas, exportando dados em formato "CSV". <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>QGIS</h1>
+            <p>Arquivo Exportado da tabela de gerenciamento compatível para inserção em projetos do QGIS. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Análise</h1>
+            <p>Obtenha de maneira fácil uma análise quantitativa dos dados filtrados. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Pontuação</h1>
+            <p>Tenha um controle de pontuação para cada tipo de categoria com relatório anual, semestral, trimestral e mensal. <a href="">Saiba Mais</a></p>
+        </div>
+
+        <div class="funcao">
+            <h1>Backup</h1>
+            <p>Realize backup mensal ou semanal de maneira totalmente automática ou manual. <a href="">Saiba Mais</a></p>
+        </div>
+    </section>
+    <section class="license">
+        <h1>Solicite sua licença</h1>
+        <form action="https://api.staticforms.xyz/submit", method="POST">
+            <input type="hidden" name="accessKey" value="7a5ac699-1d29-484c-8318-4a353f5c961e">
+            <input type="hidden" name="redirectTo" value="https://ailson-araujo.github.io/XML-Analyzer">
+
+            <label for="inputNome">Nome de Guerra:</label>
+            <input type="text", id="inputNome" name="name" required maxlength="30">
+
+            <label for="inputOM">Organização Militar (Sigla):</label>
+            <input type="text", id="inputOM" name="subject" required maxlength="30">
+
+            <label for="inputEmail">Email:</label>
+            <input type="email", id="inputEmail" name="email" required maxlength="50">
+
+            <label for="textMSG">Mensagem:</label>
+            <textarea name="message" id="textMSG" required maxlength="200"></textarea>
+
+            <button>Solicitar</button>
+        </form>
     </section>
 </body>
 </html>
