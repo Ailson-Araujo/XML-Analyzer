@@ -73,17 +73,22 @@ header{
     color: white;
     border: none;
     border-radius: 50px;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,170,255,1) 0%, rgba(82,255,111,1) 100%);
-    box-shadow: .2rem .1rem 3px rgba(0,0,0,150);
+    background: #343b48;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,170,255,1) 0%, rgba(82,255,111,1) 100%); */
+    box-shadow: .2rem .1rem 6px rgb(20,20,20); 
     cursor: pointer;
+    outline-style: none;
     opacity: 0;
     animation: move-banner 1.5s 0.8s forwards;
 }
 
-.banner button:focus{
-    outline-style: none;
-    color: gray;
+.banner button:hover{
+    background-color: rgb(57, 65, 80);
+}
+
+.banner button:active{
+    background-color: rgb(35, 40, 49);
+    border: 2px solid rgb(43, 50, 61);
 }
 
 
@@ -102,10 +107,8 @@ header{
     position: relative;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin: 6em; */
     padding-bottom: 6em;
     align-items: center;
-    /* background-color: rgb(240,240,240); */
 }
 
 .funcao{
@@ -130,4 +133,29 @@ header{
     font-family: Comfortaa, cursive;
     text-decoration: none;
     color: rgb(85, 170, 255)
+}
+
+footer{
+    /* display: flex;
+    position: relative; */
+    background-color: rgb(27,29,35);
+}
+
+footer p{
+    font-family: sans-serif;
+    color: rgb(110, 110, 110);
+    padding: 1.5em;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer i{
+    padding-top: 1em;
+    margin: 0.3em;
+    color: rgb(240,240,240);
 }
