@@ -51,7 +51,7 @@ header{
     animation: move-banner 1.5s forwards;
 }
 
-.banner h1, p{
+.banner p{
     font-family: 'Comfortaa', cursive;
     font-size: 2.5vw;
     color: white;
